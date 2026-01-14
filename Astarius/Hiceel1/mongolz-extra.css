@@ -49,7 +49,6 @@ body {
   border-top: 0px;
   margin-left: -5px;
   display: flex;
-  gap: 10px;
 }
 .menu {
   margin-right: 70px;
@@ -74,6 +73,8 @@ button {
   border: none;
   font-size: 1.7rem;
   font-family: "Futura XBlk BT", sans-serif;
+  border: transparent solid 2px;
+  border-radius: 20px;
   text-transform: uppercase;
   align-items: center;
   height: 100%;
@@ -161,8 +162,7 @@ button {
   justify-content: end;
   position: relative;
   height: 100%;
-  width: 80%;
-
+  margin-right: 90px;
 }
 .search input {
   border: #b5b1af solid 3px;
