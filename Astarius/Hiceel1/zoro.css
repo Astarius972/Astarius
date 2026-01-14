@@ -1,0 +1,167 @@
+body {
+  width: 100vw;
+}
+.home {
+  font-family: "Electroharmonix", sans-serif;
+  font-size: 34px;
+  height: 41px;
+  color: white;
+}
+.text {
+  display: flex;
+  gap: 65px;
+  position: fixed;
+  width: 99.6vw;
+  justify-content: center;
+  background-color: black;
+  z-index: 1000;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  top: 0px;
+}
+.circle {
+  width: 378px;
+  height: 378px;
+  background-color: #e13a4b;
+  border-radius: 100%;
+  position: absolute;
+  margin-top: 210px;
+}
+.circle-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  font-family: "Electroharmonix", sans-serif;
+}
+.circle-samurai {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.samurai {
+  position: absolute;
+  margin-top: 480px;
+}
+.samurai img {
+  width: 750px;
+}
+.back img {
+  width: 100vw;
+  height: 100vh;
+}
+#bamboo {
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  margin-top: 550px;
+  margin-left: 600px;
+}
+#bamboo1 {
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  margin-top: 550px;
+  margin-left: 1300px;
+}
+.circle::after {
+  content: "";
+  position: absolute;
+  inset: -10px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  animation: spin 8s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.home:hover {
+  transform: translateY(-2px);
+}
+.uusgalt {
+  background: linear-gradient(white, black);
+  width: 100vw;
+  height: 40vh;
+  margin-top: -10px;
+}
+.bamboo-2 {
+  margin-left: 240px;
+}
+
+.slide2-text {
+  color: white;
+  font-size: 65px;
+  justify-content: center;
+  display: flex;
+  font-family: "Jedi Special Forces", sans-serif;
+  font-family: "Jedi Special Forces Gradient", sans-serif;
+  font-family: "Jedi Special Forces Laser", sans-serif;
+  font-family: "Jedi Special Forces Outline", sans-serif;
+  font-family: "Jedi Special Forces 3D", sans-serif;
+  font-family: "Jedi Special Forces Condensed", sans-serif;
+  font-family: "Jedi Special Forces Expanded", sans-serif;
+  font-family: "Jedi Special Forces Gradient Italic", sans-serif;
+  font-family: "Jedi Special Forces Italic", sans-serif;
+  font-family: "Jedi Special Forces Laser Italic", sans-serif;
+  font-family: "Jedi Special Forces Leftalic", sans-serif;
+  font-family: "Jedi Special Forces Outline Italic", sans-serif;
+  font-family: "Jedi Special Forces 3D Italic", sans-serif;
+  font-family: "Jedi Special Forces Condensed Italic", sans-serif;
+  font-family: "Jedi Special Forces Expanded Italic", sans-serif;
+  text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.8);
+  margin-top: -200px;
+}
+.tailbar-img{
+  margin-top: 400px;
+  position: absolute;
+}
+.tailbar-img img {
+  width: 400px;
+  transform: rotate(55deg);
+  position: relative;
+}
+.katana {
+  background-color: aliceblue;
+  width: 800px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  border: solid 9px rgb(123, 118, 108);
+}
+#katana-link {
+  color: aliceblue;
+  font-family: "Back In The USSR DL", sans-serif;
+  margin-left: 1100px;
+  margin-top: 100px;
+  font-size: 50px;
+  justify-content: center;
+
+  position: absolute;
+}
+.with-katana-jijig img{
+width: 600px;
+position: absolute;
+
+}
+#with-katana-jijig{
+position: absolute;
+z-index: 1;
+margin-top: 5px;
+}
+.with-katana-jijig{
+ justify-content: center;
+ display: flex;
+}
+.with-katana{
+ justify-content: center;
+
+}
